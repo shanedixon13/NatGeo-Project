@@ -8,6 +8,7 @@
 			src="https://kit.fontawesome.com/6da635e2db.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="styles/normalize.css" />
 		<link rel="stylesheet" href="styles/natgeo.css" />
 		<title>NatGeo</title>
 	</head>
@@ -39,133 +40,144 @@
 			</p>
 			<span class="small-border"></span>
 		</header>
-		<section>
-			<!--This section wraps the three news-->
-			<div class="main-news">
-				<img src="imgs/main-news-image.jpg" alt="" />
-				<div class="main-news-text">
-					<h3>History & Culture</h3>
-					<p>How centuries of strife shaped modern Afghanistan</p>
-					<p class="read-text"><i class="fas fa-bars"></i> Read</p>
-				</div>
-				<!--main-news-text-->
-			</div>
-			<!--main-news-->
-			<div class="secondary-news">
-				<img src="imgs/cheetah.JPG" alt="" />
-				<div class="secondary-news-text">
-					<h3>Animals</h3>
-					<p>
-						How trafficed cheetah cubs move from the wild and into
-						your Instagram...
-					</p>
-					<p class="read-text"><i class="fas fa-bars">Read</i></p>
-				</div>
-			</div>
-			<div class="secondary-news">
-				<img src="imgs/boat.JPG" alt="" />
-				<div class="secondary-news-text">
-					<h3>Animals <span>Wildlife watch</span></h3>
-					<p>
-						Photos show why cheetahs are at risk-and how people are
-						working...
-					</p>
-					<p class="read-text"><i class="fas fa-bars">Read</i></p>
-				</div>
-			</div>
-		</section>
-		<section class="picks-section">
-			<!--Today's section-->
-			<h2>Today's Picks</h2>
-			<div class="pick-container">
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
+		<main class="news-picks-container">
+			<section>
+				<!--This section wraps the three news-->
+				<div class="main-news">
+					<img src="imgs/main-news-image.jpg" alt="" />
+					<div class="main-news-text">
+						<h3>History & Culture</h3>
+						<p>How centuries of strife shaped modern Afghanistan</p>
+						<p class="read-text">
+							<i class="fas fa-bars"></i> Read
 						</p>
 					</div>
-					<!--.pick-text-->
+					<!--main-news-text-->
 				</div>
-				<!--.pick-element-->
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
-						</p>
+				<!--main-news-->
+				<div class="secondary-container">
+					<div class="secondary-news">
+						<img src="imgs/cheetah.JPG" alt="" />
+						<div class="secondary-news-text">
+							<h3>Animals</h3>
+							<p>
+								How trafficed cheetah cubs move from the wild
+								and into your Instagram...
+							</p>
+							<p class="read-text">
+								<i class="fas fa-bars">Read</i>
+							</p>
+						</div>
 					</div>
-					<!--.pick-text-->
-				</div>
-				<!--.pick-element-->
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
-						</p>
+					<div class="secondary-news">
+						<img src="imgs/boat.JPG" alt="" />
+						<div class="secondary-news-text">
+							<h3>Animals <span>Wildlife watch</span></h3>
+							<p>
+								Photos show why cheetahs are at risk-and how
+								people are working...
+							</p>
+							<p class="read-text">
+								<i class="fas fa-bars">Read</i>
+							</p>
+						</div>
 					</div>
-					<!--.pick-text-->
 				</div>
-				<!--.pick-element-->
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
-						</p>
+			</section>
+			<section class="picks-section">
+				<!--Today's section-->
+				<h2>Today's Picks</h2>
+				<div class="pick-container">
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
 					</div>
-					<!--.pick-text-->
-				</div>
-				<!--.pick-element-->
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
-						</p>
+					<!--.pick-element-->
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
 					</div>
-					<!--.pick-text-->
-				</div>
-				<!--.pick-element-->
-				<div class="pick-element">
-					<img src="imgs/todays-picks.JPG" alt="" />
-					<!--Add an image-->
-					<div class="pick-text">
-						<h3>Environment</h3>
-						<h4>Planet Possible</h4>
-						<p>
-							5 Possible climate futures-from the optimistic to
-							the strange
-						</p>
+					<!--.pick-element-->
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
 					</div>
-					<!--.pick-text-->
+					<!--.pick-element-->
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
+					</div>
+					<!--.pick-element-->
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
+					</div>
+					<!--.pick-element-->
+					<div class="pick-element">
+						<img src="imgs/todays-picks.JPG" alt="" />
+						<!--Add an image-->
+						<div class="pick-text">
+							<h3>Environment</h3>
+							<h4>Planet Possible</h4>
+							<p>
+								5 Possible climate futures-from the optimistic
+								to the strange
+							</p>
+						</div>
+						<!--.pick-text-->
+					</div>
+					<!--.pick-element-->
 				</div>
-				<!--.pick-element-->
-			</div>
-			<!--.pick-container-->
-
-			<a href="#">See More</a>
-		</section>
+				<!--.pick-container-->
+				<div class="see-more-container">
+					<a href="#" class="see-more">See More</a>
+				</div>
+			</section>
+		</main>
 	</body>
 </html>
